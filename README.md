@@ -100,8 +100,8 @@ hand_gesture_recognition/
 ### 1. Clone & Setup Environment
 
 ```bash
-git clone <your-repo-url>
-cd hand_gesture_recognition
+git clone https://github.com/SHIVA-KUMAR-D/real-time-hand-gesture-recognition
+cd real-time-hand-gesture-recognition
 
 # Create virtual environment (recommended)
 python -m venv venv
@@ -122,13 +122,15 @@ pip install -r requirements.txt
 mkdir $HOME\.kaggle
 notepad $HOME\.kaggle\kaggle.json
 
-write this code in kaggle.json:-
-          {
-          "username": "your_kaggle_username",
-          "key": "your_api_token"
-          }
+Setup Kaggle API
 
-kaggle datasets list
+Create file:
+
+C:\Users\<your-username>\.kaggle\kaggle.json
+{
+  "username": "your_kaggle_username",
+  "key": "your_api_key"
+}
 
 ```
 
