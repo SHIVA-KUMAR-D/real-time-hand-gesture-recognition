@@ -1,0 +1,44 @@
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ----------------------
+# Virtual Environment
+# ----------------------
+gesture_env/
+venv/
+env/
+
+# ----------------------
+# Dataset (large files)
+# ----------------------
+dataset/raw/
+dataset/processed/
+
+# ----------------------
+# Models (large weights)
+# ----------------------
+models/saved/
+
+# ----------------------
+# Logs & results
+# ----------------------
+models/logs/
+models/results/
+
+# ----------------------
+# OS / Editor
+# ----------------------
+.DS_Store
+Thumbs.db
+.vscode/
+
+# ----------------------
+# Jupyter (if any)
+# ----------------------
+.ipynb_checkpoints/
+note.txt
